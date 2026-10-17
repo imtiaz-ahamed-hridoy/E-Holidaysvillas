@@ -1,0 +1,88 @@
+# Composer & Node Dependencies
+/vendor
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Credentials
+.env
+.env.*
+!.env.example
+.env.backup
+.env.production
+.env.local
+.rnd
+*.pem
+*.key
+*.p8
+*.p12
+*.cer
+*.jks
+*.keystore
+key.properties
+local.properties
+*service*account*.json
+google-services.json
+GoogleService-Info.plist
+
+# Database Dumps, Exports & Large Datasets
+*.sql
+*.sqlite
+*.db
+/database/data/cities.json
+/database/data/cities.json.gz
+
+# Archives, Zips & Backups
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.bak
+*.backup
+
+# API Collections & Tooling Exports
+*postman*.json
+*insomnia*.json
+*bruno*.json
+
+# Logs & Framework Runtime Caches
+*.log
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/pail
+/storage/*.key
+
+# Media Uploads & Temporary Storage
+/public/storage
+/public/build
+/public/hot
+/storage/app/tmp/*
+/storage/app/legacy_photos/*
+/storage/app/public/uploads/*
+
+# Testing & Static Analysis Caches
+/.phpunit.cache
+.phpunit.result.cache
+.phpactor.json
+
+# IDE & OS Metadata
+.DS_Store
+Thumbs.db
+/.fleet
+/.idea
+/.vscode
+/.nova
+/.zed
+auth.json
+Homestead.json
+Homestead.yaml
